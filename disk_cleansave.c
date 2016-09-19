@@ -16,7 +16,6 @@ int main(int argc, char* argv[])
 {
 	FILE* in;
 	unsigned char SystemData[0xE8];
-	unsigned char zero[1] = {0};
 	unsigned char diskType = 0;
 
 	printf("disk_cleansave by LuigiBlood\n-----\n");
